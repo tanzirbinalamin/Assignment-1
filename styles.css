@@ -11,9 +11,10 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    height: auto;
+    height: 80px;
     background-color: white;
     padding: 18px 60px;
+    
 }
 .navbar .logo{
     padding: 8px 0;
@@ -330,7 +331,7 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
         display: flex;
         align-items: center;
         text-align: center;
-f      }
+      }
 
 
 
