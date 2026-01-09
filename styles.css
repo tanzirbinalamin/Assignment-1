@@ -154,12 +154,16 @@ span{
     display:flex;
     justify-content: center;
     gap: 48px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .box1{
     height: 300px;
     width: 322px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
     border-radius: 8px;
     box-shadow: 4px 4px 8px rgb(92, 92, 92);
@@ -168,6 +172,12 @@ span{
 .box2{
     height: 300px;
     width: 322px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    
+
    
     border-radius: 8px;
 box-shadow: 4px 4px 8px rgb(92, 92, 92);
@@ -176,6 +186,12 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 .box3{
     height: 300px;
     width: 322px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    
+
     
     border-radius: 8px;
 box-shadow: 4px 4px 8px rgb(92, 92, 92);
@@ -184,10 +200,111 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
 .box4{
     height: 300px;
     width: 322px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    
+
     
     border-radius: 8px;
 box-shadow: 4px 4px 8px rgb(92, 92, 92);
 }
+
+.box1 .icon1{
+    height:60px;
+    width: 60px;
+    box-shadow: 2px 4px 4px rgb(85, 85, 85);
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.box2 .icon2{
+    height:60px;
+    width: 60px;
+    box-shadow: 2px 4px 4px rgb(85, 85, 85);
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .box3 .icon3{
+    height:60px;
+    width: 60px;
+    box-shadow: 2px 4px 4px rgb(85, 85, 85);
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .box4 .icon4{
+    height:60px;
+    width: 60px;
+    box-shadow: 2px 4px 4px rgb(85, 85, 85);
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .main{
+        display: flex;
+        gap: 140px;
+        justify-content: center;
+        /* padding: 60px auto; */
+        margin: 120px;
+        font-family: sans-serif;
+    }
+
+    .main .content{
+        padding: 100px 0;
+
+    }
+
+    .main .content h1{
+        font-size: 48px;
+        
+
+    }
+
+    .main .content h3{
+        color: #30B868;
+
+    }
+
+    .main .content ul{
+        display: flex;
+        
+        justify-content: center;
+        flex-direction: column;
+   
+   
+   
+}
+
+    .main .content ul li{
+        font-weight: bold;
+        line-height:32px;
+        list-style: none;
+        
+    }
+
+
+
+
+    
+
 
 
 
