@@ -101,4 +101,10 @@ span{
     color:rgba(70 145 101 );
     
 }
+.para{
+    line-height:24px;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+}
 
