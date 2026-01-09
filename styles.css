@@ -300,6 +300,45 @@ box-shadow: 4px 4px 8px rgb(92, 92, 92);
         
     }
 
+    .Ready{
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .bg{
+        height:384px ;
+        width: 1360px;
+        text-align: center;
+        background-color: rgb(245, 255, 242);
+        margin: 0 120px 120px 120px;
+        
+ 
+    }
+
+
+    .area{
+        padding-top: 60px;
+        
+    
+
+
+    }
+
+    .bg .area p{
+        color: #627382;
+        line-height: 24px;
+    }
+
+    .area .lists{
+        /* list-style: circle; */
+    }
+
+
+
 
 
 
